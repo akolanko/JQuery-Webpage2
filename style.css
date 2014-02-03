@@ -1,0 +1,66 @@
+body{
+	font-family: "Sackers Gothic Std", sans-serif;
+	font-size: 14px;
+}
+
+#container{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px 0 0 0;
+}
+
+#homepage{
+	position: fixed;
+	z-index: 1;
+	margin-top: 15px;
+	margin-left: 140px;
+}
+
+#homepage:hover{
+	cursor: pointer;
+}
+
+img#home:hover{
+	opacity: .8;
+}
+
+p#enter{
+	text-align: center;
+	letter-spacing: .2em;
+}
+
+p#enter:hover{
+	font-weight: bold;
+}
+
+#pageTwo{
+	padding-left: 15px;
+}
+
+img.gallery{
+	height: 155px;
+	float: left;
+	margin: 0;
+	padding: 5px;
+}
+
+img.gallery:hover{
+	opacity: .7;
+	cursor: pointer;
+}
+
+#pageThree{
+	position: fixed;
+	margin-left: 140px;
+	margin-top: 100px;
+}
+
+img.big{
+	position: fixed;
+	height: 300px;
+	cursor: pointer;
+}
+
+img.big:hover{
+	opacity: .8;
+}
